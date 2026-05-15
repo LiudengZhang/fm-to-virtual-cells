@@ -1,0 +1,262 @@
+# Curated paper list for the FM-to-Virtual-Cells scatter plot.
+#
+# Schema per entry:
+#   name           — short label
+#   s2_id          — Semantic Scholar lookup ID (DOI: or ARXIV: prefix)
+#   release_date   — YYYY-MM
+#   category       — model | critique | benchmark | position | architecture
+#   is_sc_fm       — true if this is in the sc-FM / virtual-cell narrative
+#                    (used to visually emphasize over adjacent FM families)
+#   annotate       — true if the paper should get a text label on the plot
+#   manual_cites   — optional override when S2 can't resolve the paper
+
+papers:
+  # ─── 2023 paradigm — sc-FMs ─────────────────────────────────────────
+  - name: scBERT
+    s2_id: DOI:10.1038/s42256-022-00534-z
+    release_date: 2022-09
+    category: model
+    is_sc_fm: true
+    annotate: false
+  - name: scGPT
+    s2_id: DOI:10.1038/s41592-024-02201-0
+    release_date: 2024-02
+    category: model
+    is_sc_fm: true
+    annotate: true
+  - name: Geneformer
+    s2_id: DOI:10.1038/s41586-023-06139-9
+    release_date: 2023-05
+    category: model
+    is_sc_fm: true
+    annotate: true
+  - name: scFoundation
+    s2_id: DOI:10.1038/s41592-024-02305-7
+    release_date: 2024-06
+    category: model
+    is_sc_fm: true
+    annotate: false
+
+  # ─── 2024 expansion + ambition ──────────────────────────────────────
+  - name: UCE
+    s2_id: DOI:10.1038/s41592-024-02496-z
+    release_date: 2024-11
+    category: model
+    is_sc_fm: true
+    annotate: false
+  - name: CellPLM
+    s2_id: ARXIV:2306.09320
+    release_date: 2023-10
+    category: model
+    is_sc_fm: true
+    annotate: false
+  - name: "Bunne Cell (VC vision)"
+    s2_id: DOI:10.1016/j.cell.2024.11.015
+    release_date: 2024-12
+    category: position
+    is_sc_fm: true
+    annotate: true
+  - name: Nicheformer
+    s2_id: DOI:10.1038/s41592-025-02814-z
+    release_date: 2025-12
+    category: model
+    is_sc_fm: true
+    annotate: false
+
+  # ─── Pathology FMs (adjacent — not the talk's core) ─────────────────
+  - name: UNI
+    s2_id: DOI:10.1038/s41591-024-02857-3
+    release_date: 2024-03
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: Virchow
+    s2_id: ARXIV:2309.07778
+    release_date: 2023-09
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: Virchow2
+    s2_id: ARXIV:2408.00738
+    release_date: 2024-08
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: CHIEF
+    s2_id: DOI:10.1038/s41586-024-07894-z
+    release_date: 2024-09
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: TITAN
+    s2_id: DOI:10.1038/s41591-025-03982-3
+    release_date: 2025-11
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: PathOrchestra
+    s2_id: DOI:10.1038/s41746-025-02027-w
+    release_date: 2025-11
+    category: model
+    is_sc_fm: false
+    annotate: false
+
+  # ─── Genomic / protein FMs (adjacent) ───────────────────────────────
+  - name: AlphaGenome
+    s2_id: DOI:10.1038/s41586-025-10014-0
+    release_date: 2025-09
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: Evo2
+    s2_id: DOI:10.1038/s41586-026-10176-5
+    release_date: 2026-02
+    category: model
+    is_sc_fm: false
+    annotate: false
+  - name: ESM-3
+    s2_id: DOI:10.1126/science.ads0018
+    release_date: 2025-07
+    category: model
+    is_sc_fm: false
+    annotate: false
+
+  # ─── 2025 reckoning ─────────────────────────────────────────────────
+  - name: Ahlmann-Eltze (linear-baseline)
+    s2_id: DOI:10.1038/s41592-025-02772-6
+    release_date: 2025-08
+    category: critique
+    is_sc_fm: true
+    annotate: true
+  - name: Kedzierska (zero-shot)
+    s2_id: DOI:10.1186/s13059-025-03574-x
+    release_date: 2025-04
+    category: critique
+    is_sc_fm: true
+    annotate: true
+  - name: Wenkel (latent-additive)
+    s2_id: DOI:10.1038/s41592-025-02702-6
+    release_date: 2025-07
+    category: critique
+    is_sc_fm: true
+    annotate: false
+  - name: Wu Nat Methods (27×29×6)
+    s2_id: DOI:10.1038/s41592-025-02980-0
+    release_date: 2026-01
+    category: critique
+    is_sc_fm: true
+    annotate: true
+  - name: Wu Genome Biology (biology-driven)
+    s2_id: DOI:10.1186/s13059-025-03790-5
+    release_date: 2025-10
+    category: critique
+    is_sc_fm: true
+    annotate: false
+  - name: PertEval-scFM
+    s2_id: DOI:10.1101/2024.10.02.616248
+    release_date: 2024-10
+    category: critique
+    is_sc_fm: true
+    annotate: false
+  - name: Liu Adv Sci (scEval)
+    s2_id: DOI:10.1002/advs.202514490
+    release_date: 2026-01
+    category: critique
+    is_sc_fm: true
+    annotate: true
+  - name: Parameter-free baseline
+    s2_id: DOI:10.64898/2026.02.11.705358
+    release_date: 2026-02
+    category: critique
+    is_sc_fm: true
+    annotate: false
+
+  # ─── 2026 response: new architectures + models ──────────────────────
+  - name: STATE (Arc Institute)
+    s2_id: DOI:10.1101/2025.06.26.661135
+    release_date: 2025-06
+    category: model
+    is_sc_fm: true
+    annotate: false
+  - name: TranscriptFormer
+    s2_id: DOI:10.1126/science.aec8514
+    release_date: 2025-09
+    category: model
+    is_sc_fm: true
+    annotate: true
+  - name: xVERSE
+    s2_id: DOI:10.64898/2026.04.12.718016
+    release_date: 2026-04
+    category: architecture
+    is_sc_fm: true
+    annotate: true
+  - name: rBio
+    s2_id: DOI:10.1101/2025.10.20.683498
+    release_date: 2025-10
+    category: model
+    is_sc_fm: true
+    annotate: false
+  - name: VCHarness
+    s2_id: DOI:10.64898/2026.04.11.717183
+    release_date: 2026-04
+    category: architecture
+    is_sc_fm: true
+    annotate: false
+  - name: OmniCell
+    s2_id: DOI:10.64898/2025.12.29.696804
+    release_date: 2025-12
+    category: model
+    is_sc_fm: true
+    annotate: false
+  - name: CellFM
+    s2_id: DOI:10.1038/s41467-025-59926-5
+    release_date: 2025-05
+    category: model
+    is_sc_fm: true
+    annotate: false
+
+  # ─── 2026 position / theory ─────────────────────────────────────────
+  - name: Theis (compositional FMs)
+    s2_id: DOI:10.1016/j.cels.2026.101534
+    release_date: 2026-02
+    category: position
+    is_sc_fm: true
+    annotate: true
+  - name: Virtual Cells Need Context
+    s2_id: DOI:10.64898/2026.02.04.703804
+    release_date: 2026-02
+    category: position
+    is_sc_fm: true
+    annotate: true
+  - name: Beyond Alignment (SIS)
+    s2_id: DOI:10.64898/2026.02.23.707420
+    release_date: 2026-02
+    category: architecture
+    is_sc_fm: true
+    annotate: false
+  - name: FMs Improve Perturbation (contrarian)
+    s2_id: DOI:10.64898/2026.02.18.706454
+    release_date: 2026-02
+    category: critique
+    is_sc_fm: true
+    annotate: true
+
+  # ─── Benchmarks ─────────────────────────────────────────────────────
+  - name: PerturBench
+    s2_id: ARXIV:2408.10609
+    release_date: 2024-08
+    category: benchmark
+    is_sc_fm: true
+    annotate: false
+  - name: Tahoe-100M
+    s2_id: DOI:10.1101/2025.02.20.639398
+    release_date: 2025-02
+    category: benchmark
+    is_sc_fm: true
+    annotate: false
+  - name: HEST-1k
+    s2_id: ARXIV:2406.16192
+    release_date: 2024-06
+    category: benchmark
+    is_sc_fm: false
+    annotate: false

@@ -1,0 +1,40 @@
+"name","s2_id","release_date","category","is_sc_fm","annotate","citation_count"
+"scBERT","DOI:10.1038/s42256-022-00534-z","2022-09","model",True,False,559.0
+"scGPT","DOI:10.1038/s41592-024-02201-0","2024-02","model",True,True,975.0
+"Geneformer","DOI:10.1038/s41586-023-06139-9","2023-05","model",True,True,940.0
+"scFoundation","DOI:10.1038/s41592-024-02305-7","2024-06","model",True,False,486.0
+"UCE","DOI:10.1038/s41592-024-02496-z","2024-11","model",True,False,34.0
+"CellPLM","ARXIV:2306.09320","2023-10","model",True,False,1.0
+"Bunne Cell (VC vision)","DOI:10.1016/j.cell.2024.11.015","2024-12","position",True,True,133.0
+"Nicheformer","DOI:10.1038/s41592-025-02814-z","2025-12","model",True,False,104.0
+"UNI","DOI:10.1038/s41591-024-02857-3","2024-03","model",False,False,1338.0
+"Virchow","ARXIV:2309.07778","2023-09","model",False,False,138.0
+"Virchow2","ARXIV:2408.00738","2024-08","model",False,False,180.0
+"CHIEF","DOI:10.1038/s41586-024-07894-z","2024-09","model",False,False,457.0
+"TITAN","DOI:10.1038/s41591-025-03982-3","2025-11","model",False,False,46.0
+"PathOrchestra","DOI:10.1038/s41746-025-02027-w","2025-11","model",False,False,11.0
+"AlphaGenome","DOI:10.1038/s41586-025-10014-0","2025-09","model",False,False,67.0
+"Evo2","DOI:10.1038/s41586-026-10176-5","2026-02","model",False,False,22.0
+"ESM-3","DOI:10.1126/science.ads0018","2025-07","model",False,False,254.0
+"Ahlmann-Eltze (linear-baseline)","DOI:10.1038/s41592-025-02772-6","2025-08","critique",True,True,106.0
+"Kedzierska (zero-shot)","DOI:10.1186/s13059-025-03574-x","2025-04","critique",True,True,68.0
+"Wenkel (latent-additive)","DOI:10.1038/s41592-025-02702-6","2025-07","critique",True,False,5.0
+"Wu Nat Methods (27×29×6)","DOI:10.1038/s41592-025-02980-0","2026-01","critique",True,True,17.0
+"Wu Genome Biology (biology-driven)","DOI:10.1186/s13059-025-03790-5","2025-10","critique",True,False,0.0
+"PertEval-scFM","DOI:10.1101/2024.10.02.616248","2024-10","critique",True,False,30.0
+"Liu Adv Sci (scEval)","DOI:10.1002/advs.202514490","2026-01","critique",True,True,0.0
+"Parameter-free baseline","DOI:10.64898/2026.02.11.705358","2026-02","critique",True,False,0.0
+"STATE (Arc Institute)","DOI:10.1101/2025.06.26.661135","2025-06","model",True,False,78.0
+"TranscriptFormer","DOI:10.1126/science.aec8514","2025-09","model",True,True,0.0
+"xVERSE","DOI:10.64898/2026.04.12.718016","2026-04","architecture",True,True,0.0
+"rBio","DOI:10.1101/2025.10.20.683498","2025-10","model",True,False,0.0
+"VCHarness","DOI:10.64898/2026.04.11.717183","2026-04","architecture",True,False,0.0
+"OmniCell","DOI:10.64898/2025.12.29.696804","2025-12","model",True,False,0.0
+"CellFM","DOI:10.1038/s41467-025-59926-5","2025-05","model",True,False,55.0
+"Theis (compositional FMs)","DOI:10.1016/j.cels.2026.101534","2026-02","position",True,True,2.0
+"Virtual Cells Need Context","DOI:10.64898/2026.02.04.703804","2026-02","position",True,True,2.0
+"Beyond Alignment (SIS)","DOI:10.64898/2026.02.23.707420","2026-02","architecture",True,False,0.0
+"FMs Improve Perturbation (contrarian)","DOI:10.64898/2026.02.18.706454","2026-02","critique",True,True,1.0
+"PerturBench","ARXIV:2408.10609","2024-08","benchmark",True,False,""
+"Tahoe-100M","DOI:10.1101/2025.02.20.639398","2025-02","benchmark",True,False,91.0
+"HEST-1k","ARXIV:2406.16192","2024-06","benchmark",False,False,""
