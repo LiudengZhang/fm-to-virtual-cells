@@ -1,6 +1,6 @@
 # Theme — perturbation-prediction
 
-**Items in corpus:** 39
+**Items in corpus:** 47
 
 ### Papers
 
@@ -63,6 +63,22 @@
   _scverse-blessed perturbation toolbox — distances, perturbation spaces, harmonisation. The canonical analysis layer._
 - **scpFormer**   
   _scpFormer — name only; transformer for single-cell perturbation, no paper yet._
+- **[CellOracle](https://github.com/morris-lab/CellOracle)** — Nature, 2023   
+  _GRN simulation using ATAC-seq-derived regulatory networks; strong on developmental trajectory perturbations, requires multi-omic input (Nature, 2023)._
+- **[PDGrapher](https://github.com/mims-harvard/PDGrapher)** — Nature BME, 2025   
+  _Inverts the perturbation problem by asking what intervention fixes a disease state rather than what a perturbation does; uniquely clinically relevant framing (Nature BME, 2025)._
+- **[CPA](https://github.com/theislab/cpa)** — MSB, 2023   
+  _Compositional Perturbation Autoencoder modeling combinatorial drug effects through disentangled latent representations (MSB, 2023)._
+- **[CellFlow](https://github.com/theislab/cellflow)**   
+  _Flow matching for perturbation response distributions; outperforms GEARS on energy distance but struggles with combinatorial perturbations._
+- **[Squidiff](https://github.com/siyuh/Squidiff)** — Nature Methods, 2026   
+  _Diffusion model generating full response distributions for perturbation prediction; massively outperforms GEARS on standard benchmarks but has not yet faced the most rigorous evaluations (Nature Methods, 2026)._
+- **[TorchCFM](https://github.com/atong01/conditional-flow-matching)**   
+  _Conditional flow matching library providing the mathematical foundation used by Virtual Cell Challenge winners._
+- **[scArches](https://github.com/theislab/scarches)** — Nature Biotechnology, 2021   
+  _Transfer learning framework for mapping new data to trained reference VAEs without retraining from scratch (Nature Biotechnology, 2021)._
+- **[Awesome Flow Matching Meets Biology](https://github.com/Violet24K/Awesome-Flow-Matching-Meets-Biology)**   
+  _Curated collection of flow matching applications in biology, covering perturbation prediction, molecular generation, and cell dynamics._
 
 ### Benchmarks
 
@@ -106,4 +122,4 @@
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

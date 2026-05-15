@@ -1,6 +1,6 @@
 # IBS — Park Jong-eun (human digital twin)
 
-**Mentions in corpus:** 6  
+**Mentions in corpus:** 7  
 **Type:** gov-lab  
 **Region:** KR  
 
@@ -28,7 +28,9 @@ Korean national lab investing in human-digital-twin programme around single-cell
   _Multi-organ human single-cell reference atlas._
 - **HuBMAP** — Nature, 2023   
   _Human tissue / spatial reference atlas._
+- **[Human Cell Atlas](https://data.humancellatlas.org/)**   
+  _Community effort mapping all human cell types with 70M+ cells across tissues and developmental stages._
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

@@ -1,6 +1,6 @@
 # Fabian Theis
 
-**Mentions in corpus:** 6  
+**Mentions in corpus:** 7  
 **Affiliation:** Helmholtz Munich  
 **Region:** EU  
 **Profile:** <https://www.helmholtz-munich.de/en/icb/pi/fabian-theis>  
@@ -23,7 +23,9 @@ Compositional-FM Perspective author; scvi-tools / Nicheformer.
   _Methodological reference class; author of 2026 compositional-FM perspective._
 - **[Pertpy — end-to-end framework for perturbation analysis](https://github.com/scverse/pertpy)** — Heumos, Ji, May, Theis et al., Nature Methods, 2025   
   _scverse-blessed perturbation toolbox — distances, perturbation spaces, harmonisation. The canonical analysis layer._
+- **[sc-pert](https://github.com/theislab/sc-pert)**   
+  _Curated perturbation datasets in standardized h5ad format from the Theis lab, covering major Perturb-seq studies._
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

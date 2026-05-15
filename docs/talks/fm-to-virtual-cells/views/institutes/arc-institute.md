@@ -1,6 +1,6 @@
 # Arc Institute
 
-**Mentions in corpus:** 5  
+**Mentions in corpus:** 6  
 **Type:** foundation  
 **Region:** US  
 **Site:** <https://arcinstitute.org/>  
@@ -26,6 +26,11 @@ Largest non-DeepMind compute (~2,048× H100); built STATE, Evo2, Tahoe-100M.
 - **Tahoe Therapeutics + Arc Institute + CZ Biohub collaboration** — 2026   
   _The big three of US AIVC join up around Tahoe-100M._
 
+### Benchmarks
+
+- **[Virtual Cell Challenge](https://www.kaggle.com/competitions/open-problems-single-cell-perturbations)** — Cell, 2025   
+  _Arc Institute competition with 5,000+ teams; most of 300+ submissions scored worse than mean baseline on MAE, and the winning approach was a hybrid using protein embeddings plus classical features (Cell, 2025)._
+
 ### Commentary
 
 - **[Arc Institute News](https://arcinstitute.org/news)**   
@@ -33,4 +38,4 @@ Largest non-DeepMind compute (~2,048× H100); built STATE, Evo2, Tahoe-100M.
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

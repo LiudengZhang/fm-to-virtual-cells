@@ -1,6 +1,6 @@
 # Theme — foundation-model
 
-**Items in corpus:** 147
+**Items in corpus:** 157
 
 ### Papers
 
@@ -78,6 +78,10 @@
   _Transformer pre-trained on 276M peptide precursors; +51% protein IDs vs DIA-NN. Westlake's bid for proteomics FM._
 - **[DrugCLIP — contrastive protein-molecule virtual screening](https://arxiv.org/abs/2310.06367)** — NeurIPS 2023, 2023   
   _CLIP for protein-molecule retrieval — zero-shot virtual screen baseline that DrugReflector and successors build on._
+- **[LLMs Meet Virtual Cells](https://arxiv.org/abs/2502.10206)**   
+  _Survey of how large language models are being applied to virtual cell challenges including perturbation prediction and cell state modeling._
+- **[Virtual Cells: Hype or Hope?](https://arxiv.org/abs/2502.10980)**   
+  _Survey examining the current state of virtual cell research with critical assessment of progress and limitations._
 
 ### Reviews
 
@@ -206,6 +210,22 @@
   _scpFormer — name only; transformer for single-cell perturbation, no paper yet._
 - **scFOCAL**   
   _scFOCAL — name only._
+- **[scVI](https://github.com/scverse/scvi-tools)** — Nature Methods, 2018   
+  _VAE-based generative model that sidesteps the tokenization problem entirely; the practical workhorse for batch integration and the foundation for the scvi-tools ecosystem (Nature Methods, 2018)._
+- **[SCimilarity](https://github.com/Genentech/scimilarity)** — Nature Biotechnology, 2024   
+  _Metric learning model trained on 23.4M cells for unified cell embedding; generalizes to new studies without retraining (Nature Biotechnology, 2024)._
+- **[AIDO.Cell](https://github.com/genbio-ai/AIDO)**   
+  _650M-parameter model pushing the scale frontier for single-cell foundation models._
+- **[CellOracle](https://github.com/morris-lab/CellOracle)** — Nature, 2023   
+  _GRN simulation using ATAC-seq-derived regulatory networks; strong on developmental trajectory perturbations, requires multi-omic input (Nature, 2023)._
+- **[PDGrapher](https://github.com/mims-harvard/PDGrapher)** — Nature BME, 2025   
+  _Inverts the perturbation problem by asking what intervention fixes a disease state rather than what a perturbation does; uniquely clinically relevant framing (Nature BME, 2025)._
+- **[CPA](https://github.com/theislab/cpa)** — MSB, 2023   
+  _Compositional Perturbation Autoencoder modeling combinatorial drug effects through disentangled latent representations (MSB, 2023)._
+- **[CellFlow](https://github.com/theislab/cellflow)**   
+  _Flow matching for perturbation response distributions; outperforms GEARS on energy distance but struggles with combinatorial perturbations._
+- **[Squidiff](https://github.com/siyuh/Squidiff)** — Nature Methods, 2026   
+  _Diffusion model generating full response distributions for perturbation prediction; massively outperforms GEARS on standard benchmarks but has not yet faced the most rigorous evaluations (Nature Methods, 2026)._
 
 ### Datasets
 
@@ -325,4 +345,4 @@
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

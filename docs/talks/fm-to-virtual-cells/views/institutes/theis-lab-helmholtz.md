@@ -1,6 +1,6 @@
 # Theis Lab (Helmholtz Munich)
 
-**Mentions in corpus:** 6  
+**Mentions in corpus:** 7  
 **Type:** academic  
 **Region:** EU  
 **Site:** <https://www.helmholtz-munich.de/en/icb/pi/fabian-theis>  
@@ -30,6 +30,11 @@ Methodological reference class; author of 2026 compositional-FM perspective.
 - **[Fabian Theis](https://www.helmholtz-munich.de/en/icb/pi/fabian-theis)** — Helmholtz Munich   
   _Compositional-FM Perspective author; scvi-tools / Nicheformer._
 
+### Datasets
+
+- **[sc-pert](https://github.com/theislab/sc-pert)**   
+  _Curated perturbation datasets in standardized h5ad format from the Theis lab, covering major Perturb-seq studies._
+
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

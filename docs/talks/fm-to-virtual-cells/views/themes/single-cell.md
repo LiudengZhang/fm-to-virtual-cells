@@ -1,6 +1,6 @@
 # Theme — single-cell
 
-**Items in corpus:** 87
+**Items in corpus:** 98
 
 ### Papers
 
@@ -130,6 +130,14 @@
   _scFOCAL — name only._
 - **SC-pSILAC** — Zilu Ye   
   _Single-cell pSILAC variant — Zilu Ye attribution from talk notes, not yet citable._
+- **[scVI](https://github.com/scverse/scvi-tools)** — Nature Methods, 2018   
+  _VAE-based generative model that sidesteps the tokenization problem entirely; the practical workhorse for batch integration and the foundation for the scvi-tools ecosystem (Nature Methods, 2018)._
+- **[SCimilarity](https://github.com/Genentech/scimilarity)** — Nature Biotechnology, 2024   
+  _Metric learning model trained on 23.4M cells for unified cell embedding; generalizes to new studies without retraining (Nature Biotechnology, 2024)._
+- **[AIDO.Cell](https://github.com/genbio-ai/AIDO)**   
+  _650M-parameter model pushing the scale frontier for single-cell foundation models._
+- **[CZ Virtual Cells Platform](https://virtualcellmodels.cziscience.com/quickstart)**   
+  _Free hosted environment with Colab tutorials for scGPT, rBio, TranscriptFormer, and scGenePT._
 
 ### Benchmarks
 
@@ -144,6 +152,20 @@
   _Multi-organ human single-cell reference atlas._
 - **CELLxGENE Census**   
   _Aggregated single-cell corpus most sc-FMs pretrain on._
+- **[Human Cell Atlas](https://data.humancellatlas.org/)**   
+  _Community effort mapping all human cell types with 70M+ cells across tissues and developmental stages._
+- **[TISCH2](http://tisch.comp-genomics.org/)**   
+  _Curated single-cell tumor microenvironment atlas with 190 datasets covering 50+ cancer types and pre-annotated cell types._
+- **[TCGA](https://portal.gdc.cancer.gov/)**   
+  _Bulk RNA-seq plus clinical outcome data for 11,000+ patients across 33 cancer types._
+- **[DepMap](https://depmap.org/)**   
+  _Cell line omics, drug response, and genetic dependency data for 1,000+ cell lines from the Cancer Dependency Map project._
+- **[sc-pert](https://github.com/theislab/sc-pert)**   
+  _Curated perturbation datasets in standardized h5ad format from the Theis lab, covering major Perturb-seq studies._
+- **[L1000/CMap](https://clue.io/)**   
+  _Connectivity Map with 1M+ transcriptional response profiles to chemical and genetic perturbations._
+- **[SpatialDB](https://www.spatialomics.org/SpatialDB/)**   
+  _Curated collection of 100+ spatial transcriptomics datasets across platforms and tissues._
 
 ### Organisations
 
@@ -202,4 +224,4 @@
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

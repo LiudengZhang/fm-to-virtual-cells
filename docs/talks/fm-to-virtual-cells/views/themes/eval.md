@@ -1,6 +1,6 @@
 # Theme — eval
 
-**Items in corpus:** 45
+**Items in corpus:** 48
 
 ### Papers
 
@@ -80,6 +80,12 @@
   _Official virtual-cell evaluation suite hosted by CZI._
 - **sc-Arena — single-cell benchmark suite**   
   _Third-party-maintained sc-FM benchmark._
+- **[Virtual Cell Challenge](https://www.kaggle.com/competitions/open-problems-single-cell-perturbations)** — Cell, 2025   
+  _Arc Institute competition with 5,000+ teams; most of 300+ submissions scored worse than mean baseline on MAE, and the winning approach was a hybrid using protein embeddings plus classical features (Cell, 2025)._
+- **[Perturbation Prediction vs Baselines](https://doi.org/10.1038/s41592-025-02772-6)** — Nature Methods, 2025   
+  _Independent evaluation showing linear models match or beat scGPT and GEARS on held-out perturbations (Nature Methods, 2025)._
+- **[BioLLM](https://github.com/BGIResearch/BioLLM)**   
+  _Standardized benchmarking framework running scBERT, Geneformer, scGPT, and scFoundation through unified APIs for fair comparison._
 
 ### Organisations
 
@@ -115,4 +121,4 @@
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

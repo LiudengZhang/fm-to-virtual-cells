@@ -1,6 +1,6 @@
 # Hani Goodarzi
 
-**Mentions in corpus:** 6  
+**Mentions in corpus:** 7  
 **Affiliation:** Arc Institute  
 **Region:** US  
 **Profile:** <https://arcinstitute.org/labs/goodarzilab>  
@@ -23,7 +23,9 @@ STATE co-lead.
   _Largest non-DeepMind compute (~2,048× H100); built STATE, Evo2, Tahoe-100M._
 - **[VCWorld — biological world model for virtual cell simulation](https://arxiv.org/abs/2512.00306)** — Shuangjia Zheng lab et al., arXiv, 2025   
   _White-box LLM-driven simulator: stepwise mechanistic reasoning, SOTA on drug-perturbation benchmarks. Anti-black-box alternative._
+- **[PhysiCell](https://github.com/MathCancer/PhysiCell)** — PLOS Computational Biology, 2018   
+  _Agent-based modeling framework for multicellular simulations using explicit equations rather than learned representations; the only truly mechanistic approach to virtual tumors (PLOS Computational Biology, 2018)._
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._

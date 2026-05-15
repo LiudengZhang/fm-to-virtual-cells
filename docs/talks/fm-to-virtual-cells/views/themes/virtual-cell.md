@@ -1,6 +1,6 @@
 # Theme — virtual-cell
 
-**Items in corpus:** 67
+**Items in corpus:** 69
 
 ### Papers
 
@@ -38,6 +38,10 @@
   _Virtual-organ agenda — personalised organ-scale simulation on real lungs._
 - **[VCWorld — biological world model for virtual cell simulation](https://arxiv.org/abs/2512.00306)** — Shuangjia Zheng lab et al., arXiv, 2025   
   _White-box LLM-driven simulator: stepwise mechanistic reasoning, SOTA on drug-perturbation benchmarks. Anti-black-box alternative._
+- **[LLMs Meet Virtual Cells](https://arxiv.org/abs/2502.10206)**   
+  _Survey of how large language models are being applied to virtual cell challenges including perturbation prediction and cell state modeling._
+- **[Virtual Cells: Hype or Hope?](https://arxiv.org/abs/2502.10980)**   
+  _Survey examining the current state of virtual cell research with critical assessment of progress and limitations._
 
 ### Reviews
 
@@ -171,4 +175,4 @@
 
 ---
 
-_Regenerated 2026-05-15 from a 277-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
+_Regenerated 2026-05-15 from a 304-item corpus by [resourcelib-views](https://github.com/Light-Kit/resourcelib-views)._
