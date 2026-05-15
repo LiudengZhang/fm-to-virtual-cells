@@ -8,6 +8,11 @@ site_dir: site
 
 not_in_nav: |
   /talks/_resources-matrix.md
+  /talks/fm-to-virtual-cells/views/index.md
+  /talks/fm-to-virtual-cells/views/people/*
+  /talks/fm-to-virtual-cells/views/institutes/*
+  /talks/fm-to-virtual-cells/views/themes/*
+  /talks/fm-to-virtual-cells/views/cards/**
 
 theme:
   name: material
@@ -95,39 +100,7 @@ nav:
     - Protein-LM explainability: talks/fm-to-virtual-cells/adjacent-methods/protein-lm-explainability.md
     - Transformers vs state-space models: talks/fm-to-virtual-cells/adjacent-methods/transformers-vs-state-space.md
   - Resource Library: talks/fm-to-virtual-cells/resource-library.md
+  - Topics: talks/fm-to-virtual-cells/views/topics.md
+  - Developers: talks/fm-to-virtual-cells/views/developers.md
+  - Timeline: talks/fm-to-virtual-cells/views/timeline.md
   - Papermap (interactive): https://papermap.fly.dev/
-  - Views (ranked dossiers):
-    - Overview: talks/fm-to-virtual-cells/views/index.md
-    - People:
-      - Faisal Mahmood: talks/fm-to-virtual-cells/views/people/faisal-mahmood-person.md
-      - Fabian Theis: talks/fm-to-virtual-cells/views/people/fabian-theis-person.md
-      - Hani Goodarzi: talks/fm-to-virtual-cells/views/people/hani-goodarzi-person.md
-      - Constantin Ahlmann-Eltze: talks/fm-to-virtual-cells/views/people/constantin-ahlmann-eltze-person.md
-      - Bo Wang: talks/fm-to-virtual-cells/views/people/bo-wang-person.md
-      - Christina Theodoris: talks/fm-to-virtual-cells/views/people/christina-theodoris-person.md
-      - Le Song / Eric Xing: talks/fm-to-virtual-cells/views/people/le-song-eric-xing-person.md
-      - Marinka Zitnik: talks/fm-to-virtual-cells/views/people/marinka-zitnik-person.md
-      - Mohammad Lotfollahi: talks/fm-to-virtual-cells/views/people/mohammad-lotfollahi.md
-      - Qi Liu: talks/fm-to-virtual-cells/views/people/qi-liu-person.md
-    - Institutes:
-      - Mahmood Lab: talks/fm-to-virtual-cells/views/institutes/mahmood-lab.md
-      - CZ Biohub: talks/fm-to-virtual-cells/views/institutes/cz-biohub.md
-      - CZI / Biohub / VBI: talks/fm-to-virtual-cells/views/institutes/czi-biohub-vbi.md
-      - IBS Park Jong-eun: talks/fm-to-virtual-cells/views/institutes/ibs-park-jongeun-digital-twin.md
-      - Theis Lab (Helmholtz Munich): talks/fm-to-virtual-cells/views/institutes/theis-lab-helmholtz.md
-      - Arc Institute: talks/fm-to-virtual-cells/views/institutes/arc-institute.md
-      - Leskovec + Quake (Stanford / SNAP): talks/fm-to-virtual-cells/views/institutes/leskovec-quake.md
-      - Ahlmann-Eltze / Huber (EMBL): talks/fm-to-virtual-cells/views/institutes/ahlmann-huber-lab.md
-      - Google DeepMind: talks/fm-to-virtual-cells/views/institutes/deepmind-isomorphic.md
-      - Jian Ma's Virtual Bio Center (CMU): talks/fm-to-virtual-cells/views/institutes/jian-ma-vbc-cmu.md
-    - Themes:
-      - foundation-model: talks/fm-to-virtual-cells/views/themes/foundation-model.md
-      - single-cell: talks/fm-to-virtual-cells/views/themes/single-cell.md
-      - virtual-cell: talks/fm-to-virtual-cells/views/themes/virtual-cell.md
-      - eval: talks/fm-to-virtual-cells/views/themes/eval.md
-      - perturbation-prediction: talks/fm-to-virtual-cells/views/themes/perturbation-prediction.md
-      - clinical: talks/fm-to-virtual-cells/views/themes/clinical.md
-      - pathology: talks/fm-to-virtual-cells/views/themes/pathology.md
-      - multimodal: talks/fm-to-virtual-cells/views/themes/multimodal.md
-      - drug-design: talks/fm-to-virtual-cells/views/themes/drug-design.md
-      - agents: talks/fm-to-virtual-cells/views/themes/agents.md
