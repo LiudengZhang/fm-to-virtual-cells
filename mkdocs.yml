@@ -95,6 +95,7 @@ nav:
     - Protein-LM explainability: talks/fm-to-virtual-cells/adjacent-methods/protein-lm-explainability.md
     - Transformers vs state-space models: talks/fm-to-virtual-cells/adjacent-methods/transformers-vs-state-space.md
   - Resource Library: talks/fm-to-virtual-cells/resource-library.md
+  - Papermap (interactive): https://papermap.fly.dev/
   - Views (ranked dossiers):
     - Overview: talks/fm-to-virtual-cells/views/index.md
     - People:
