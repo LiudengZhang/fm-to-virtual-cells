@@ -1,0 +1,132 @@
+site_name: FMs → Virtual Cells
+site_description: Talk prep + knowledge base for AI foundation models, single-cell models, perturbation prediction, and the virtual cell vision. v2 extension of awesome-virtual-cell.
+repo_url: https://github.com/LiudengZhang/fm-to-virtual-cells
+repo_name: LiudengZhang/fm-to-virtual-cells
+
+docs_dir: docs
+site_dir: site
+
+not_in_nav: |
+  /talks/_resources-matrix.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+extra_css:
+  - stylesheets/tabulator.min.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/tabulator.min.js
+  - javascripts/tools-table.js
+  - https://hypothes.is/embed.js
+
+plugins:
+  - search
+  - tags
+  - encryptcontent:
+      global_password: !ENV [SITE_PASSWORD, 'changeme']
+      title_prefix: ''
+      summary: 'This site is password-protected.'
+      placeholder: 'Password'
+      decryption_failure_message: 'Wrong password.'
+      encryption_info_message: 'Contact the site owner if you need access.'
+      remember_password: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - 90-min Speed Read: speed-read.md
+  - Foundation Models: foundation-models.md
+  - Talk Prep — FMs to Virtual Cells:
+    - Main page: talks/fm-to-virtual-cells.md
+    - Supplementary (long-form): talks/fm-to-virtual-cells-supplementary.md
+    - Explainers:
+      - What is a foundation model?: talks/fm-to-virtual-cells/what-is-a-foundation-model.md
+      - The model glossary: talks/fm-to-virtual-cells/model-glossary.md
+      - What does each FM cost?: talks/fm-to-virtual-cells/what-does-each-fm-cost.md
+      - How agentic AI meets FMs: talks/fm-to-virtual-cells/agentic-meets-foundation.md
+      - Why linear baselines win: talks/fm-to-virtual-cells/why-linear-baselines-win.md
+      - Reading an FM paper critically: talks/fm-to-virtual-cells/reading-an-fm-paper-critically.md
+      - Evaluation papers catalog: talks/fm-to-virtual-cells/evaluation-papers-catalog.md
+      - The paper map: talks/fm-to-virtual-cells/paper-map.md
+  - Adjacent Methods:
+    - The catalog (~55 papers): talks/fm-to-virtual-cells/adjacent-methods/index.md
+    - PerturbFate: talks/fm-to-virtual-cells/adjacent-methods/perturbfate.md
+    - Flow matching in comp-bio: talks/fm-to-virtual-cells/adjacent-methods/flow-matching.md
+    - Learning beyond fine-tuning: talks/fm-to-virtual-cells/adjacent-methods/learning-beyond-fine-tuning.md
+    - Genome language models: talks/fm-to-virtual-cells/adjacent-methods/genome-language-models.md
+    - Protein-LM explainability: talks/fm-to-virtual-cells/adjacent-methods/protein-lm-explainability.md
+    - Transformers vs state-space models: talks/fm-to-virtual-cells/adjacent-methods/transformers-vs-state-space.md
+  - Resource Library: talks/fm-to-virtual-cells/resource-library.md
+  - Views (ranked dossiers):
+    - Overview: talks/fm-to-virtual-cells/views/index.md
+    - People:
+      - Faisal Mahmood: talks/fm-to-virtual-cells/views/people/faisal-mahmood-person.md
+      - Fabian Theis: talks/fm-to-virtual-cells/views/people/fabian-theis-person.md
+      - Hani Goodarzi: talks/fm-to-virtual-cells/views/people/hani-goodarzi-person.md
+      - Constantin Ahlmann-Eltze: talks/fm-to-virtual-cells/views/people/constantin-ahlmann-eltze-person.md
+      - Bo Wang: talks/fm-to-virtual-cells/views/people/bo-wang-person.md
+      - Christina Theodoris: talks/fm-to-virtual-cells/views/people/christina-theodoris-person.md
+      - Le Song / Eric Xing: talks/fm-to-virtual-cells/views/people/le-song-eric-xing-person.md
+      - Marinka Zitnik: talks/fm-to-virtual-cells/views/people/marinka-zitnik-person.md
+      - Mohammad Lotfollahi: talks/fm-to-virtual-cells/views/people/mohammad-lotfollahi.md
+      - Qi Liu: talks/fm-to-virtual-cells/views/people/qi-liu-person.md
+    - Institutes:
+      - Mahmood Lab: talks/fm-to-virtual-cells/views/institutes/mahmood-lab.md
+      - CZ Biohub: talks/fm-to-virtual-cells/views/institutes/cz-biohub.md
+      - CZI / Biohub / VBI: talks/fm-to-virtual-cells/views/institutes/czi-biohub-vbi.md
+      - IBS Park Jong-eun: talks/fm-to-virtual-cells/views/institutes/ibs-park-jongeun-digital-twin.md
+      - Theis Lab (Helmholtz Munich): talks/fm-to-virtual-cells/views/institutes/theis-lab-helmholtz.md
+      - Arc Institute: talks/fm-to-virtual-cells/views/institutes/arc-institute.md
+      - Leskovec + Quake (Stanford / SNAP): talks/fm-to-virtual-cells/views/institutes/leskovec-quake.md
+      - Ahlmann-Eltze / Huber (EMBL): talks/fm-to-virtual-cells/views/institutes/ahlmann-huber-lab.md
+      - Google DeepMind: talks/fm-to-virtual-cells/views/institutes/deepmind-isomorphic.md
+      - Jian Ma's Virtual Bio Center (CMU): talks/fm-to-virtual-cells/views/institutes/jian-ma-vbc-cmu.md
+    - Themes:
+      - foundation-model: talks/fm-to-virtual-cells/views/themes/foundation-model.md
+      - single-cell: talks/fm-to-virtual-cells/views/themes/single-cell.md
+      - virtual-cell: talks/fm-to-virtual-cells/views/themes/virtual-cell.md
+      - eval: talks/fm-to-virtual-cells/views/themes/eval.md
+      - perturbation-prediction: talks/fm-to-virtual-cells/views/themes/perturbation-prediction.md
+      - clinical: talks/fm-to-virtual-cells/views/themes/clinical.md
+      - pathology: talks/fm-to-virtual-cells/views/themes/pathology.md
+      - multimodal: talks/fm-to-virtual-cells/views/themes/multimodal.md
+      - drug-design: talks/fm-to-virtual-cells/views/themes/drug-design.md
+      - agents: talks/fm-to-virtual-cells/views/themes/agents.md

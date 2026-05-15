@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Editor / agent metadata
+.claude/
+
+# Temporary / scratch
+/_tmp/
+/_scratch/
+/_Temp/
+
+# Large binary artifacts
+*.pdf
+**/pdfs/
